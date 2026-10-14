@@ -1,0 +1,35 @@
+{
+  "name": "prompt-para-video",
+  "private": true,
+  "version": "6.11.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --config vite.config.ts",
+    "build": "tsc --noEmit && vite build --config vite.config.ts",
+    "preview": "vite preview --config vite.config.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run --config vite.config.ts",
+    "predev": "node scripts/check-stale.mjs",
+    "prebuild": "node scripts/check-stale.mjs",
+    "ci": "npm run typecheck && npm test && npm run build",
+    "clean:stale": "node scripts/check-stale.mjs --fix"
+  },
+  "dependencies": {
+    "fflate": "^0.8.3",
+    "lucide-react": "^0.453.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.18.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.0",
+    "vitest": "^2.1.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

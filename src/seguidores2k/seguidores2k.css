@@ -1,0 +1,9 @@
+/* ===== 2K DE SEGUIDORES (reaproveita as classes .mq-* dos Manequins) ===== */
+.sg { display: flex; flex-direction: column; gap: 18px; }
+.sg-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 460px), 1fr)); gap: 16px; align-items: start; }
+.sg-fields { display: grid; gap: 10px; }
+.sg-tip { font-size: 14px; line-height: 1.6; padding: 12px 14px; border-radius: 12px; border: 1px solid var(--line); background: rgba(255, 255, 255, 0.04); color: #e6ebf5; }
+.sg-sub { font: 700 15px var(--font-display); margin-top: 6px; }
+.sg-scene { font-size: 14px; line-height: 1.7; color: #ece8f3; }
+.sg-search { display: flex; align-items: center; gap: 8px; }
+.sg-search input { flex: 1; }

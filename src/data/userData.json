@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "savedAt": "2026-10-12T16:33:54.867Z",
+  "data": {
+    "progresso:goals": [
+      {
+        "id": "g-mv4hla6t-5",
+        "text": "Postar Shopee"
+      },
+      {
+        "id": "g-mv4hlsat-6",
+        "text": "Postar Youtube"
+      },
+      {
+        "id": "g-stories",
+        "text": "Postar Stories"
+      },
+      {
+        "id": "g-reels",
+        "text": "Postar Reels"
+      },
+      {
+        "id": "g-producao",
+        "text": "Produzir Reels do dia seguinte"
+      },
+      {
+        "id": "g-metricas",
+        "text": "Analisar métricas da Shopee"
+      }
+    ],
+    "progresso:done": {
+      "2026-10-10": [
+        "g-stories"
+      ],
+      "2026-10-11": [
+        "g-stories",
+        "g-reels",
+        "g-producao"
+      ]
+    },
+    "custom:prontas": [
+      {
+        "title": "PROMPT MESTRE GERAL",
+        "prompt": "Você é um especialista em TikTok Shop, criação de vídeos UGC de alta conversão, engenharia reversa de anúncios vencedores e criação de prompts para Flow Omni Flash.\n\nVocê receberá:\n\n1. FOTO DO PRODUTO\n2. NOME DO PRODUTO\n3. DESCRIÇÃO COMPLETA DO PRODUTO\n\nSua missão é criar uma campanha completa:\n\n- análise do produto\n- 5 prompts de imagem\n- 5 prompts de vídeo Omni Flash de 8 segundos\n- 5 copys faladas dentro dos vídeos\n\n================================================\n\nREGRA PRINCIPAL — USAR A DESCRIÇÃO COMO BASE DE VENDA\n\nA descrição do produto é obrigatória.\n\nAntes de criar qualquer vídeo, faça uma extração das informações:\n\nEXTRAÇÃO OBRIGATÓRIA:\n\nNome:\nCategoria:\nMaterial:\nComposição:\nCor:\nTamanhos:\nMedidas:\nPeso (se informado):\nQuantidade de peças:\nModelos/variações:\nCaracterísticas técnicas:\nDiferenciais:\nBenefícios:\nIndicação de uso:\n\nEssas informações devem ser usadas nas copys.\n\nNunca criar uma copy genérica que poderia servir para qualquer produto.\n\n================================================\n\nDIVISÃO OBRIGATÓRIA DOS VÍDEOS\n\nCriar exatamente 5 vídeos.\n\n================================\n\nVÍDEO 1 — CARACTERÍSTICAS DO PRODUTO\n\nObjetivo:\nApresentar o produto usando informações reais da descrição.\n\nA copy deve obrigatoriamente mencionar características como:\n\n- material\n- tamanho\n- cor\n- composição\n- acabamento\n- tecnologia\n- quantidade\n\nExemplo:\n\n\"Olha esse detalhe, esse produto tem X metros, é feito com X material e essa cor deixa tudo muito mais bonito.\"\n\n================================\n\nVÍDEO 2 — BENEFÍCIOS BASEADOS NA DESCRIÇÃO\n\nObjetivo:\nTransformar características em benefícios.\n\nA copy deve pegar informações da descrição e explicar:\n\n- por que é melhor\n- como ajuda\n- sensação de uso\n- praticidade\n\nExemplo:\n\n\"Além de ser X, ele tem X característica que deixa mais confortável, resistente e fácil de usar.\"\n\n================================\n\nVÍDEO 3 — DEMONSTRAÇÃO + TRANSFORMAÇÃO\n\nObjetivo:\nMostrar o produto aplicado no ambiente ou uso.\n\nA copy deve unir:\n\nCARACTERÍSTICA REAL + RESULTADO EMOCIONAL\n\nExemplo:\n\n\"Com esse tamanho X e esse acabamento X, ele muda completamente a aparência do ambiente.\"\n\n================================\n\nVÍDEO 4 — COPY VIRAL\n\nAqui não precisa explicar todos os detalhes técnicos.\n\nUsar padrão dos vídeos campeões:\n\n- descoberta\n- surpresa\n- oportunidade\n- preço\n- achado\n\nExemplo:\n\n\"Eu achei que era só mais uma promoção, mas olha isso...\"\n\n================================\n\nVÍDEO 5 — URGÊNCIA + CONVERSÃO\n\nUsar:\n\n- escassez\n- oportunidade\n- desejo\n\nExemplo:\n\n\"Se o carrinho laranja apareceu para você, aproveita porque essas opções acabam rápido.\"\n\n================================================\n\nREGRA DE DURAÇÃO DA COPY\n\nCada vídeo possui exatamente 8 segundos.\n\nA fala deve ter aproximadamente:\n\n18 a 28 palavras.\n\nNunca criar textos longos.\n\nA copy precisa caber naturalmente no vídeo.\n\n================================================\n\nETAPA IMAGEM\n\nCriar 5 prompts de imagem.\n\nA imagem deve ser criada baseada:\n\n- no produto enviado\n- na categoria\n- no melhor ambiente de venda\n\nOs prompts devem:\n\n- inglês\n- vertical 9:16\n- fotografia real de smartphone\n- estilo UGC\n- sem texto\n- sem logo\n- sem marca d'água\n\nCada imagem:\n\nFRAME 1:\nObjetivo:\nPrompt:\n\nFRAME 2:\nObjetivo:\nPrompt:\n\n...\n\n================================================\n\nETAPA VÍDEO OMNI FLASH\n\nCada vídeo deve conter:\n\nCAMERA LOCK\n\nNO PERSON\n\nHAND RULES\n\nPRODUCT LOCK\n\nPHYSICAL MECHANICS\n\nONE ACTION ONLY\n\nSTYLE\n\nAUDIO\n\nTEXT AND WATERMARK LOCK\n\nFINAL PRIORITY ORDER\n\n\n================================================\n\nBLOCO AUDIO\n\nObrigatório:\n\nA fala deve estar dentro do prompt.\n\nFormato:\n\nAUDIO:\n\nNatural Brazilian Portuguese voice:\n\n\"COLOCAR A COPY AQUI\"\n\nA voz deve parecer:\n\n- pessoa real\n- espontânea\n- conversa de TikTok Shop\n\nNunca:\n\n- locução comercial\n- voz robótica\n- frase genérica\n\n================================================\n\nPRODUCT LOCK\n\nSempre incluir:\n\nUse the attached product image only as reference for the physical product.\n\nPreserve exactly:\n\n- shape\n- color\n- material\n- texture\n- dimensions\n- details\n\nIgnore:\n\n- price\n- promotional text\n- marketplace elements\n- badges\n- watermarks\n\n================================================\n\nTEXT AND WATERMARK LOCK\n\nO vídeo final não pode possuir:\n\n- texto\n- legenda\n- marca d'água\n- logo\n- interface\n- TikTok\n- TikTok Shop\n- elementos de aplicativo\n\nAdicionar:\n\n\"Clean original smartphone recording. No text, no subtitles, no logos, no watermark, no interface elements.\"\n\n================================================\n\nENTREGA FINAL:\n\n1. ANÁLISE DO PRODUTO\n\n2. EXTRAÇÃO DA DESCRIÇÃO\n\n3. 5 PROMPTS DE IMAGEM\n\n4. 5 PROMPTS DE VÍDEO\n\nCada vídeo entregar:\n\nNome:\nObjetivo:\nCopy de 8 segundos:\nPrompt Omni Flash completo:\n\n5. Informar qual vídeo tem maior chance de conversão.",
+        "obs": "",
+        "category": "Ganchos Especiais",
+        "mode": "frames",
+        "cover": {
+          "hue": 97,
+          "emoji": "✨"
+        },
+        "id": "user-prompt-mestre-geral",
+        "source": "user"
+      }
+    ],
+    "progresso:planilha": {
+      "name": "CSV",
+      "rows": [
+        [
+          "Semana",
+          "Produto",
+          "Link shoppe",
+          "Link Mercado Livre",
+          "imagens",
+          "Codigo SHOPEE",
+          "codigo ML",
+          "Shopee Video  ",
+          "YouTube Short",
+          "Pinterest ",
+          "Instagram",
+          "Facebook ",
+          "TikTok ",
+          "Data",
+          "Nome do video",
+          "Data programado piterest"
+        ],
+        [
+          "Semana 5",
+          "Cortinas Plissadas Auto-Adesivas Para Janelas / Banheiro",
+          "https://s.shopee.com.br/2qG0vykPUk",
+          null,
+          "https://down-br.img.susercontent.com/file/382cd84b4368e83baa69e6d1ae340fa4@resize_w450_nl.webp",
+          null,
+          null,
+          "Concluído",
+          "Não começou",
+          "Não começou",
+          "Não começou",
+          "Não começou",
+          "Não começou",
+          "27/01",
+          "camisa-masculina-xadrez-flanelada-manga-longa.mp4",
+          null
+        ],
+        [
+          "Semana 5",
+          "Máquina para Café Vertuo Pop 127V Nespresso Branca",
+          "https://s.shopee.com.br/7pegtCHlhO",
+          null,
+          "https://down-br.img.susercontent.com/file/br-50009109-898eacc451109f74b3a514ff46bb10b4",
+          null,
+          null,
+          "Concluído",
+          "Concluído",
+          "Não começou",
+          "Não começou",
+          "Não começou",
+          "Não começou",
+          "27/01",
+          null,
+          null
+        ],
+        [
+          "testando",
+          "sdadsa",
+          "dsadsad",
+          "dadsad",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "favorites": [
+      "user-prompt-mestre-geral"
+    ],
+    "trendly:favorites": [
+      "pacote-vid"
+    ]
+  }
+}
